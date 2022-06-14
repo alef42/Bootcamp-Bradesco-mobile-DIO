@@ -6,7 +6,7 @@
 
 - [x] Pensamento Computacional
 
-- [x] Introdução ao Kotlin
+- [ ] Introdução ao Kotlin
 
 - [x]  Logica de Progamação
 
