@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-22 03:42:46 "/>
+        <attribute name="created" value="QWRtaW47REVTS1RPUC1NU0VSNUNJOzIwMjEtMTItMjI7IjAyOjIyOjMxICI7Mjc1Mw=="/>
+        <attribute name="edited" value="QWRtaW47REVTS1RPUC1NU0VSNUNJOzIwMjEtMTItMjI7IjAzOjQyOjQ2ICI7MjsyODcx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="0"/>
+            <assign variable="limite" expression="90"/>
+            <declare name="mult" type="Integer" array="False" size=""/>
+            <assign variable="mult" expression="0"/>
+            <while expression="numero &lt;=limite">
+                <output expression="&quot;9x&quot; &amp; mult &amp; &quot;=&quot; &amp; numero" newline="True"/>
+                <assign variable="numero" expression="numero+9"/>
+                <assign variable="mult" expression="mult+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
